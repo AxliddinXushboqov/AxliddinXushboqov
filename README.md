@@ -28,14 +28,14 @@
   <!-- Frontend -->
   <h3>🌐 Frontend</h3>
   <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
-    <img src="https://skillicons.dev/icons?i=html,css,bootstrap,javascript,react" alt="Frontend Icons" />
+    <img src="https://skillicons.dev/icons?i=html,css,bootstrap,javascript" alt="Frontend Icons" />
   </div>
   <br/>
 
   <!-- Backend -->
   <h3>🖥️ Backend</h3>
   <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
-    <img src="https://skillicons.dev/icons?i=python,dotnet,nodejs,java,php" alt="Backend Icons" />
+    <img src="https://skillicons.dev/icons?i=python,dotnet,nodejs,java,cs,cpp" alt="Backend Icons" />
   </div>
   <br/>
 
