@@ -20,15 +20,41 @@
 
 
 
-<h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
+<h2 align="center">⚒️ Languages, Frameworks & Tools ⚒️</h2>
 <br/>
+
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=bootstrap,html,css,vscode,github" />
-    <img src="https://skillicons.dev/icons?i=python,javascript,mongodb,cpp" /><br>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/>
+
+  <!-- Frontend -->
+  <h3>🌐 Frontend</h3>
+  <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+    <img src="https://skillicons.dev/icons?i=html,css,bootstrap,javascript,react" alt="Frontend Icons" />
+  </div>
+  <br/>
+
+  <!-- Backend -->
+  <h3>🖥️ Backend</h3>
+  <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+    <img src="https://skillicons.dev/icons?i=python,dotnet,nodejs,java,php" alt="Backend Icons" />
+  </div>
+  <br/>
+
+  <!-- Database -->
+  <h3>🗄️ Databases</h3>
+  <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+    <img src="https://skillicons.dev/icons?i=mongodb,postgres,sqlite" alt="Database Icons" />
+  </div>
+  <br/>
+
+  <!-- Tools -->
+  <h3>🛠️ Tools & IDEs</h3>
+  <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+    <img src="https://skillicons.dev/icons?i=vscode,visualstudio,github,postman,kali" alt="Tools Icons" />
+  </div>
 </div>
-<br/>
+
 <hr/>
+
 
 # 📊 GitHub Stats:
 <div align=center>
