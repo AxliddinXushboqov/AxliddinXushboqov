@@ -1,5 +1,3 @@
-[![Hacktoberfest 2025](https://img.shields.io/badge/Hacktoberfest-2025-blue?style=for-the-badge&logo=github)](https://hacktoberfest.com)
-
 <div align="center" style="margin-top: '70px';">
   <img src="https://miro.medium.com/v2/resize:fit:996/1*xNQKHj5vR7w9AcY_bDKYYw.gif" alt="image"/>
 </div>
