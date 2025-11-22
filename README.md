@@ -35,7 +35,7 @@
   <!-- Backend -->
   <h3>🖥️ Backend</h3>
   <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
-    <img src="https://skillicons.dev/icons?i=python,dotnet,nodejs,java,cs,cpp" alt="Backend Icons" />
+    <img src="https://skillicons.dev/icons?i=python,dotnet,java,cs,cpp" alt="Backend Icons" />
   </div>
   <br/>
 
