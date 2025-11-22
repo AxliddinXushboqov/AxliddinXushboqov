@@ -1,5 +1,3 @@
-[![An image of @marjanahmed's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/marjanahmed)](https://holopin.io/@marjanahmed)
-
 [![Hacktoberfest 2025](https://img.shields.io/badge/Hacktoberfest-2025-blue?style=for-the-badge&logo=github)](https://hacktoberfest.com)
 
 <div align="center" style="margin-top: '70px';">
