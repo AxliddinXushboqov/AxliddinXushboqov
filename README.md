@@ -2,7 +2,7 @@
   <img src="https://miro.medium.com/v2/resize:fit:996/1*xNQKHj5vR7w9AcY_bDKYYw.gif" alt="image"/>
 </div>
 
-## 🌐 Socials:
+<h2 align="center">🌐 Socials:</h2>
 <div align="center"> 
   <a href="mailto:xushboqovaxliddin7@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
