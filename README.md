@@ -75,3 +75,94 @@
   <br/><br/><br/>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mening sahifam</title>
+  <style>
+    body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:0;height:100vh;overflow:hidden;background:#0b1020;color:#fff}
+    .center {
+      position: absolute; left:50%; top:50%; transform:translate(-50%,-50%);
+      text-align:center;
+    }
+    .avatar{
+      width:120px;height:120px;border-radius:50%;background:white;background-image:url('https://avatars.githubusercontent.com/<username>');background-size:cover;margin:0 auto 12px;border:4px solid rgba(255,255,255,0.12);
+    }
+    /* Suzuvchi elementlar */
+    .float {
+      position: absolute;
+      pointer-events: none;
+      font-weight:700;
+      transform: translate(-50%,-50%);
+      user-select: none;
+      -webkit-user-select: none;
+      opacity: 0.95;
+      text-shadow: 0 2px 8px rgba(0,0,0,.6);
+      mix-blend-mode: screen;
+    }
+  </style>
+</head>
+<body>
+  <div class="center">
+    <div class="avatar" id="myAvatar"></div>
+    <h1>@<span id="uname">USERNAME</span></h1>
+    <p>Assalomu alaykum — sizning sahifangizga xush kelibsiz!</p>
+  </div>
+
+  <script>
+    // --- SOZLAMALAR ---
+    const texts = ['Salom', 'Welcome', 'Hallo', 'Assalom', '👋', '🚀', '🔥']; // suzuvchi so'zlar
+    const maxItems = 14; // nechta element bo'lishi mumkin
+    const speed = 0.6; // harakat tezligi (katta bo'lsa tezroq)
+
+    // Sahifaga elementlar qo'shish
+    function createFloat(i){
+      const el = document.createElement('div');
+      el.className = 'float';
+      el.textContent = texts[i % texts.length];
+      el.style.left = (50 + (Math.random()*80-40)) + '%';
+      el.style.top = (50 + (Math.random()*80-40)) + '%';
+      el.style.fontSize = (12 + Math.random()*28) + 'px';
+      el.style.color = `hsl(${Math.floor(Math.random()*360)}, 80%, 65%)`;
+      el.dataset.vx = (Math.random()*2-1) * speed;
+      el.dataset.vy = (Math.random()*2-1) * speed;
+      document.body.appendChild(el);
+      return el;
+    }
+
+    // yarating
+    const floats = [];
+    for(let i=0;i<maxItems;i++) floats.push(createFloat(i));
+
+    // animatsiya loop
+    function tick(){
+      for(const f of floats){
+        let x = parseFloat(f.style.left) || 50;
+        let y = parseFloat(f.style.top) || 50;
+        x += parseFloat(f.dataset.vx);
+        y += parseFloat(f.dataset.vy);
+        // boshqa tomonlarga chiqmasligi uchun cheklash va "sakrash"
+        if(x < 2 || x > 98) f.dataset.vx *= -1;
+        if(y < 2 || y > 98) f.dataset.vy *= -1;
+        f.style.left = x + '%';
+        f.style.top  = y + '%';
+      }
+      requestAnimationFrame(tick);
+    }
+    tick();
+
+    // OPTIONAL: avatar ostidagi username-ni dinamik to'ldirish
+    (function setUser(){
+      const name = location.pathname.split('/')[1] || 'USERNAME';
+      document.getElementById('uname').textContent = name.toLowerCase() === '' ? 'USERNAME' : name;
+      // Agar GitHub avatar dan foydalanmoqchi bo'lsangiz:
+      const av = document.getElementById('myAvatar');
+      av.style.backgroundImage = "url('https://github.com/<AxliddinXushboqov>.png')";
+    })();
+  </script>
+</body>
+</html>
+
