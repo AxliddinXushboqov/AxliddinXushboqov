@@ -13,7 +13,7 @@
   <a href="https://github.com/AxliddinXushboqov" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://t.me/Khushbokov_D" target="_blank">
+  <a href="https://t.me/Khushbokov_Developer" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-0088CC?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
 </div>
